@@ -1,0 +1,5 @@
+chardet
+black
+flake8
+isort
+pytest
