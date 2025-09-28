@@ -208,9 +208,9 @@ __marimo__/
 
 
 # Ignore all generated book outputs
-processed_books/*
+book_processor/processed_books/*
 # But keep the folder itself by allowing the placeholder
-!processed_books/.gitkeep
+!book_processor/processed_books/.gitkeep
 
 # Ignore all files inside test-notebooks/processed_books but keep the folder
 test-notebooks/processed_books/*
