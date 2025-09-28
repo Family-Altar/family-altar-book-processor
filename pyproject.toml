@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88          # Max line length for code formatting
+target-version = ["py39"] # Python version your project targets
+skip-string-normalization = false  # Normalize string quotes
+
+[tool.isort]
+profile = "black"         # Make isort compatible with Black
+line_length = 88          # Same line length as Black
+known_first_party = ["book_processor"]  # Your own package
+multi_line_output = 3
+include_trailing_comma = true
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
